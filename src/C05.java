@@ -13,7 +13,7 @@ public class C05 {
 
         int result= (int)(number1/number2);
 
-        System.out.println("Integer part of the dıvısıon operatıon: " + result);
+        System.out.println("Integer part of the division operation: " + result);
 
         scan.close();
     }
