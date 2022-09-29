@@ -15,7 +15,7 @@ public class C08 {
 
         System.out.println("Now, value of b is : " + b); // b:12
 
-        System.out.println("Value of c : " + c);  // c:23
+        System.out.println("Value of c is : " + c);  // c:23
 
         System.out.println("The last total is: " + (a+b+c)); // a:12 + b:12 + c: 23 = 47
 
