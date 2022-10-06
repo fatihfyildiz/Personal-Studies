@@ -4,21 +4,19 @@ public class C14 {
 
     public static void main(String[] args) {
 
-        // Get a letter from the user and if it is
-        // Soru5- Kullanicidan bir harf isteyin,
-        // girilen karakter kucuk harf ise onu buyuk harf olarak yazdirin,
-        // yoksa girilen harfi yazdirin
+        // Get a letter from the user and if it is lowercase (small), then print it as Capital letter (uppercase),
+        // if not, then print its original case
 
         Scanner scan= new Scanner(System.in);
-        System.out.println("Lutfen bir karakter giriniz");
+        System.out.println("Please enter a letter");
 
-        char girilenKarakter=scan.next().charAt(0);
+        char enteredChar=scan.next().charAt(0);
 
-        if(girilenKarakter>='a' && girilenKarakter<='z'){
-            System.out.println((char)(girilenKarakter-32)); //Casting yaparak rakam yerine harf gorunmesini sagladik
-            // cunku -32 deyince rakam cikiyordu
+        if(enteredChar>='a' && enteredChar<='z'){
+            System.out.println((char)(enteredChar-32)); // By casting we provide it as letter, instead of number
+            // since -32 is printed as a digit/number, we cast it to a char(character)
         } else {
-            System.out.println(girilenKarakter);
+            System.out.println(enteredChar);
         }
         scan.close();
 
