@@ -9,9 +9,9 @@ public class C04 {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a number");
-        double girilenSayi= scan.nextDouble();
+        double enteredNumber= scan.nextDouble();
 
-        byte convertedNumber= (byte)girilenSayi; // in order to convert between -128 and 127, casting to byte is done
+        byte convertedNumber= (byte)enteredNumber; // in order to convert between -128 and 127, casting to byte is done
 
         System.out.println("The equivalent of the entered number in the system is : " + convertedNumber);
 
