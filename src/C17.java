@@ -13,7 +13,7 @@ public class C17 {
          */
 
         // Note: If there are more than one variable, we must establish the codes based on the selected varriable.
-        // For example, in this solution we will establish on the gender type
+        // For example, in this case we will establish on the gender type
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Please indicate your gender by entering W for woman, M for man");
@@ -42,8 +42,6 @@ public class C17 {
             }
 
         }else System.out.println("Please control the entered information. You mistype something");
-
-        scan.close();
 
     }
 }
