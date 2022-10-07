@@ -17,7 +17,8 @@ public class C17 {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Please indicate your gender by entering W for woman, M for man");
-        char gender = scan.next().toUpperCase().charAt(0); // by UpperCasing we ignore the entered lowercase/small letters
+        char gender = scan.next().toUpperCase().charAt(0);
+        // by UpperCasing we ignore the entered lowercase/small letters and by CharAt we just consider the letter at the index 0
         System.out.println("Please enter your age");
         double age = scan.nextDouble();
 
