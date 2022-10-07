@@ -43,5 +43,7 @@ public class C17 {
 
         }else System.out.println("Please control the entered information. You mistype something");
 
+        scan.close();
+
     }
 }
