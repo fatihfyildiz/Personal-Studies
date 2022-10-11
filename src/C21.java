@@ -13,6 +13,6 @@ public class C21 {
 
         System.out.println(number%2==0 ? "It's an even number" : "Its new value : " + (number=number+5));
 
-
+        scan.close();
     }
 }
