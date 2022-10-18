@@ -4,7 +4,7 @@ public class C23 {
     public static void main(String[] args) {
 
         /*
-        Gete a number from the user
+        Get a number from the user
         If it is positive, print the suitable choice that it is even or odd number
         If it is negative, print the suitable choice that it is 3-digit number or not
          */
