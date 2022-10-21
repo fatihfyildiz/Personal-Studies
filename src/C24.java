@@ -7,6 +7,7 @@ public class C24 {
         // Get the name of a day from the user and print as "weekday" else "weekend"
 
         Scanner scan= new Scanner(System.in);
+
         System.out.println("Please enter the name of a day");
         String nameDay= scan.next();
         String nameDayForControl= nameDay.toLowerCase();
