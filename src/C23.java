@@ -10,6 +10,7 @@ public class C23 {
          */
 
         Scanner scan= new Scanner(System.in);
+
         System.out.println("Please enter an integer number");
         int number= scan.nextInt();
 
