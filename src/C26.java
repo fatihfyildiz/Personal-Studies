@@ -19,7 +19,6 @@ public class C26 {
         str=str.toUpperCase();
 
         System.out.println(str); // JAVA IS GREAT
-
         System.out.println(str.toLowerCase()); // java is great
 
         // if we want to make Uppercase or Lowercase it due to a language;
